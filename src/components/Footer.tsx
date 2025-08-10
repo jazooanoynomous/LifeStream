@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed text-lg max-w-md">
-                Leading contracting establishment providing exceptional construction, 
+                Leading contracting establishment providing exceptional construction,
                 trading, and logistics services with a commitment to quality and customer satisfaction.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Quick Links */}
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-orange-500">Quick Links</h4>
@@ -68,7 +68,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            
+
             {/* Contact Info */}
             <div className="space-y-6">
               <h4 className="text-xl font-bold text-orange-500">Contact Info</h4>
@@ -76,7 +76,7 @@ const Footer = () => {
                 <div className="flex items-start space-x-3">
                   <Mail className="text-orange-500 mt-1" size={18} />
                   <div>
-                    <a 
+                    <a
                       href="mailto:info@lifestream.com"
                       className="text-gray-300 hover:text-orange-500 transition-colors duration-200"
                     >
@@ -87,11 +87,11 @@ const Footer = () => {
                 <div className="flex items-start space-x-3">
                   <Phone className="text-orange-500 mt-1" size={18} />
                   <div>
-                    <a 
+                    <a
                       href="tel:+966598228352"
                       className="text-gray-300 hover:text-orange-500 transition-colors duration-200"
                     >
-                     +966598228352
+                      +966598228352
                     </a>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const Footer = () => {
                   <MapPin className="text-orange-500 mt-1" size={18} />
                   <div>
                     <p className="text-gray-300">Kingdom of Saudi Arabia</p>
-                    <p className="text-gray-400 text-sm">Serving all Saudi Arabia</p>                 
+                    <p className="text-gray-400 text-sm">Serving all Saudi Arabia</p>
                   </div>
                 </div>
               </div>
@@ -129,24 +129,24 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h5 className="font-semibold text-white mb-2">Logistics</h5>
-                <ul className="space-y-1">
-                  <li>Manpower Services</li>
-                  <li>Equipment Rental</li>
-                  <li>Import/Export Services</li>
-                  <li>Cooling Services</li>
+                <h5 className="font-semibold text-[#0A2E5D] mb-2">Transportation Services</h5>
+                <ul className="space-y-1 text-[#4B4F56]">
+                  <li>Monthly Truck Rental</li>
+                  <li>Trip-Based Truck Services</li>
+                  <li>Heavy Cargo Transport</li>
+                  <li>Emergency Transport</li>
                 </ul>
               </div>
             </div>
           </div>
-          
+
           {/* Bottom Section */}
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-gray-400 text-sm">
                 © {currentYear} Lifestream Trading & Contracting. All rights reserved.
               </p>
-              
+
               <div className="flex space-x-6 text-sm text-gray-400">
                 <button className="hover:text-orange-500 transition-colors duration-200">
                   Privacy Policy
@@ -159,7 +159,7 @@ const Footer = () => {
                 </button>
               </div>
             </div>
-            
+
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-center text-gray-400 text-sm">
                 Building excellence through quality craftsmanship and innovative solutions
